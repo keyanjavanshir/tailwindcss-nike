@@ -1,7 +1,8 @@
 
 import PopularProductCard from './PopularProductCard';
-
+import Button from './Button';
 
 export {
-    PopularProductCard
+    PopularProductCard,
+    Button
 }
