@@ -10,7 +10,7 @@ import { bigShoe1 } from "../assets/images";
 
 const Hero = () => {
 
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
   return (
     <section id="home" className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"> 
@@ -50,8 +50,8 @@ const Hero = () => {
                 <ShoeCard 
                 imgURL={shoe}
                 changeBigShoeImage= 
-                { ( shoe ) => setBigShoeImg(shoe)}
-                bigShoeImage={bigShoeImg}
+                {(shoe) => setBigShoeImg(shoe)}
+                bigShoeImg={bigShoeImg}
                 />
               </div>
             ))}
